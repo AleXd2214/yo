@@ -1,0 +1,233 @@
+body {
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+
+.header1 {
+  background-color: rgb(21, 21, 21, 0.9);
+  margin: 0;
+  width: 70px;
+  height: 70px;
+  border-radius: 0px 0px 50px;
+  box-shadow: 2px 2px 15px #000000;
+  box-sizing: border-box;
+  transition: ease-in-out 0.3s;
+  overflow: hidden;
+}
+
+.header1 img {
+  width: 45px;
+  margin: 0px 0px 0px 25px;
+}
+
+.header1 ul {
+  margin: 10px 10px 10px 0px;
+  opacity: 1;
+}
+
+.header1 a {
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar1 {
+  margin: 14px;
+  padding: 5px;
+}
+
+.navbar1 a {
+  margin: 5px 10px 10px 0px;
+}
+
+.perfil {
+  margin: 1px 0px 0px -15px;
+  transition: 0.275s;
+  color: white;
+}
+
+.whatsapp {
+  position: relative;
+  overflow: hidden;
+  width: 70px;
+  height: 50px;
+  background: rgb(47, 0, 91, 0);
+  border: none;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+
+.whatsapp:hover::before {
+  transform: scaleX(1);
+}
+
+.whatsapp img {
+  position: relative;
+  z-index: 1000;
+  margin: 0;
+  margin-left: -10px;
+}
+
+.whatsapp::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: blur(10px);
+  transform: scaleX(0);
+  transform-origin: right;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgb(0, 0, 0, 0) 10.8%,
+    rgb(0, 125, 19) 94.3%
+  );
+  transition: all 0.3s;
+}
+
+.facebook {
+  position: relative;
+  overflow: hidden;
+  width: 70px;
+  height: 50px;
+  background: rgb(47, 0, 91, 0);
+  border: none;
+  cursor: pointer;
+}
+
+.facebook:hover::before {
+  transform: scaleX(1);
+}
+
+.facebook img {
+  position: relative;
+  z-index: 1000;
+  margin: 0;
+  margin-left: -10px;
+}
+
+.facebook::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: blur(10px);
+  transform: scaleX(0);
+  transform-origin: right;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgb(0, 0, 0, 0) 10.8%,
+    rgb(0, 48, 170) 94.3%
+  );
+  transition: all 0.3s;
+}
+
+.instagram {
+  position: relative;
+  overflow: hidden;
+  width: 70px;
+  height: 50px;
+  background: rgb(47, 0, 91, 0);
+  border: none;
+  cursor: pointer;
+}
+
+.instagram:hover::before {
+  transform: scaleX(1);
+}
+
+.instagram img {
+  position: relative;
+  z-index: 1000;
+  margin: 0;
+  margin-left: -10px;
+}
+
+.instagram::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: blur(10px);
+  transform: scaleX(0);
+  transform-origin: right;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgb(0, 0, 0, 0) 10.8%,
+    rgb(162, 38, 0) 94.3%
+  );
+  transition: all 0.3s;
+}
+
+.github {
+  position: relative;
+  overflow: hidden;
+  width: 70px;
+  height: 50px;
+  background: rgb(47, 0, 91, 0);
+  border: none;
+  cursor: pointer;
+}
+
+.github:hover::before {
+  transform: scaleX(1);
+}
+
+.github img {
+  position: relative;
+  z-index: 1000;
+  margin: 0;
+  margin-left: -10px;
+}
+
+.github::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: blur(10px);
+  transform: scaleX(0);
+  transform-origin: right;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgb(0, 0, 0, 0) 10.8%,
+    rgb(59, 47, 166) 94.3%
+  );
+  transition: all 0.3s;
+}
+
+.header1:hover {
+  background-color: rgb(21, 21, 21);
+  height: 350px;
+  border-radius: 0px 0px 20px 0px;
+  box-shadow: 9px 9px 25px #000000;
+  transition: 0.5s;
+  transition-delay: 0.4s;
+}
+
+.line-header{
+    background-color: rgba(18, 18, 18, 0.9);
+    height: 70px;
+    box-shadow: 3px 3px 25px black;
+}
+
+.img-info {
+  width: 110px;
+  border-radius: 500px;
+  box-shadow: 3px 3px 20px rgb(0, 0, 0, 0.5);
+  transition: all 0.5s;
+}
+.img-info:hover{
+    transform: scale(1.15);
+    box-shadow: 5px 5px 25px black;
+}
