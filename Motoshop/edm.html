@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Skrillex</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="edm.css" />
+</head>
+
+<body>
+<!--//////////////////////////////////////Navbar//////////////////////////////////////-->
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a href="https://www.skrillex.com" class="skrillex-a"><img src="images/Ultra/Skrillex/Logo-QFF-2023-Skrillex.png"
+          class="skrillex" /></a>
+      <div class="btn-group btns" role="group" aria-label="Button group with nested dropdown">
+        <button type="button" class="btn">
+          <a id="btn-top" class="nav-item" href="https://flowdan.lnk.to/Pepper">Pepper</a>
+        </button>
+        <button type="button" class="btn">
+          <a id="btn-top" class="nav-item" href="https://skrillex.lnk.to/baddersAW">Badders</a>
+        </button>
+        <div class="btn-group dropstart" role="group">
+          <button id="btn-top" type="button" class="btn dropdown-toggle text-white" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Contacto
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li>
+              <a class="dropdown-item s-f" href="https://www.facebook.com/skrillex">Facebook</a>
+            </li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li>
+              <a class="dropdown-item s-i" href="https://www.instagram.com/skrillex">Instagram</a>
+            </li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a href="https://discord.com/invite/skrillex" class="dropdown-item s-d">Discord</a>
+            </li>
+            <hr class="dropdown-divider">
+            <li>
+              <a class="dropdown-item s-x" href="https://twitter.com/skrillex">X</a>
+            </li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li>
+              <a class="dropdown-item s-t" href="https://www.tiktok.com/@skrillex">TikTok</a>
+            </li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li>
+              <a class="dropdown-item s-s"
+                href="https://open.spotify.com/intl-es/artist/5he5w2lnU9x7JFhnwcekXX">Spotify</a>
+            </li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li>
+              <a class="dropdown-item s-y" href="https://www.youtube.com/channel/UC_TVqp_SyG6j5hG-xVRy95A">YouTube</a>
+            </li>
+          </ul>
+        </div>
+        <button type="button" class="btn">
+          <a id="btn-top" class="nav-item" href="#">Ayuda</a>
+        </button>
+      </div>
+      <button class="navbar-toggler menu-top" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menú</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 skrillex-bar">
+            <li class="nav-item">
+              <a class="nav-link" href="https://flowdan.lnk.to/Pepper">Pepper</a>
+            <li class="nav-item">
+              <a class="nav-link" href="https://skrillex.lnk.to/baddersAW">Badders</a>
+            </li>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Contacto
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li>
+                  <a class="dropdown-item s-f" href="https://www.facebook.com/skrillex">Facebook</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item s-i" href="https://www.instagram.com/skrillex">Instagram</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a href="https://discord.com/invite/skrillex" class="dropdown-item s-d">Discord</a>
+                </li>
+                <hr class="dropdown-divider">
+                <li>
+                  <a class="dropdown-item s-x" href="https://twitter.com/skrillex">X</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item s-t" href="https://www.tiktok.com/@skrillex">TikTok</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item s-s"
+                    href="https://open.spotify.com/intl-es/artist/5he5w2lnU9x7JFhnwcekXX">Spotify</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item s-y"
+                    href="https://www.youtube.com/channel/UC_TVqp_SyG6j5hG-xVRy95A">YouTube</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ayuda</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+<!--//////////////////////////////////////Navbar//////////////////////////////////////-->
+
+<!--//////////////////////////////////////Carousel//////////////////////////////////////-->
+  <div id="sliderc" class="container container-slider d-flex justify-content-center align-items-center ">
+    <section class="container">
+      <article class="slider">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/Ultra/Skrillex/carousel/0.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Ultra/Skrillex/carousel/1.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Ultra/Skrillex/carousel/2.png" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Ultra/Skrillex/carousel/3.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Ultra/Skrillex/carousel/4.png" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Ultra/Skrillex/carousel/5.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Ultra/Skrillex/carousel/6.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Ultra/Skrillex/carousel/7.jpg" class="d-block w-100">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </article>
+    </section>
+  </div>
+<!--//////////////////////////////////////Carousel//////////////////////////////////////-->
+
+<!--//////////////////////////////////////Menu-Tabs//////////////////////////////////////-->
+  <div class="container-fluid div-container-tabs tabss z-3">
+    <div class="row">
+      <div class="col-12 py-0">
+        <h1 class="text-white text-center moments bg-transparent z-3 ">Mejores canciones de <b>Skrillex</b> a lo largo
+          de su
+          carrera</h1>
+      </div>
+      <div class="col-12 bg-transparent p-0 z-3 ">
+        <div class="bg-white rounded p-0 bg-transparent">
+          <ul class="nav nav-tabs justify-content-start mw-100">
+            <li class="nav-item">
+              <a class="nav-link active" data-bs-toggle="tab" href="#qof">Quest Of Fire (2023)</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#rcs">Recess (2014)</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#bgr">Bangarang EP (2011)</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#smns">Scary Monsters And Nice Sprites EP & D.T.E
+                (2011-2010)</a>
+            </li>
+          </ul>
+          <video controls muted autoplay loop src="images/Ultra/Skrillex/carousel/Skrillex - Lost Footage.mp4"
+            class="bvideo z-0"></video>
+          <div class="row msc">
+            <div class="col-12">
+              <div class="tab-content p-5 ">
+                <div id="qof" class="tab-pane fade in active show card-div">
+                  <div class="row card-div">
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/skrillex.jpg" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn"><a
+                              href="https://www.youtube.com/watch?v=YuuLAfGfVQU&list=PL67cMGyeB5sHZV9XvLi-wJi1H5LImab-B&index=1&pp=iAQB8AUB"
+                              class="msc-btn">Leave Me Like This</a>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/skrillex.jpg" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn"><a
+                              href="https://www.youtube.com/watch?v=fFU3VEimqe0&list=PL67cMGyeB5sHZV9XvLi-wJi1H5LImab-B&index=4&pp=iAQB8AUB"
+                              class="msc-btn">Rumble</a>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/skrillex.jpg" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn"><a
+                              href="https://www.youtube.com/watch?v=EljUfqNIQBU&list=PL67cMGyeB5sHZV9XvLi-wJi1H5LImab-B&index=13&pp=iAQB8AUB"
+                              class="msc-btn">Supersonic</a>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/skrillex.jpg" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn"><a
+                              href="https://www.youtube.com/watch?v=gqnogTUiQm4&list=PL67cMGyeB5sHZV9XvLi-wJi1H5LImab-B&index=8&pp=iAQB8AUB"
+                              class="msc-btn">Xena</a></h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/skrillex.jpg" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn"><a
+                              href="https://www.youtube.com/watch?v=67VC7GBak2Y&list=PL67cMGyeB5sHZV9XvLi-wJi1H5LImab-B&index=2&pp=iAQB8AUB"
+                              class="msc-btn">Ratata</a></h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/Skrillex/Quest Of Fire/Quest Of Fire.jpg" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn">
+                            <a class="msc-btn"
+                              href="https://open.spotify.com/intl-es/album/7tWP3OG5dWphctKg4NMACt?si=d7c34df5badb46a5">Album</a>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="rcs" class="tab-pane fade card-div">
+                  <div class="row card-div">
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/Skrillex/Recess/Skrillex.png" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn"><a
+                              href="https://www.youtube.com/watch?v=R8i6VZ1vIY8&list=PL9Z0stL3aRykWNoVQW96JFIkelka_93Sc&index=2&pp=iAQB8AUB"
+                              class="msc-btn">Recess</a>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/Skrillex/Recess/Skrillex.png" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn"><a
+                              href="https://www.youtube.com/watch?v=6JYIGclVQdw&list=PL9Z0stL3aRykWNoVQW96JFIkelka_93Sc&index=1&pp=iAQB8AUB"
+                              class="msc-btn">All Is Fair in Love and Brostep</a>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/Skrillex/Recess/Skrillex.png" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn"><a
+                              href="https://www.youtube.com/watch?v=m7ot7fnFyuk&list=PL9Z0stL3aRykWNoVQW96JFIkelka_93Sc&index=6&pp=iAQB8AUB"
+                              class="msc-btn">Dirty Vibe</a>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/Skrillex/Recess/Skrillex.png" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn"><a
+                              href="https://www.youtube.com/watch?v=ulHB2mNlovg&list=PL9Z0stL3aRykWNoVQW96JFIkelka_93Sc&index=4&pp=iAQB8AUB"
+                              class="msc-btn">Try It Out</a>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/Skrillex/Recess/Skrillex.png" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn"><a
+                              href="https://www.youtube.com/watch?v=8eJDTcDUQxQ&list=PL9Z0stL3aRykWNoVQW96JFIkelka_93Sc&index=7&pp=iAQB8AUB"
+                              class="msc-btn">Ragga Bomb</a>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/Skrillex/Recess/Recess.jpg" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn"><a
+                              href="https://open.spotify.com/album/7rf1qZJ6hGSlPN7K9ShsVV?si=lhE8HtfmRbiJ_6vbZEtVfA&context=spotify%3Aalbum%3A7rf1qZJ6hGSlPN7K9ShsVV"
+                              class="msc-btn">Album</a>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="bgr" class="tab-pane fade card-div">
+                  <div class="row card-div">
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/Skrillex/Bangarang/skrillex.jpg" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn"><a
+                              href="https://www.youtube.com/watch?v=cR2XilcGYOo&list=PLB30EE183F1B36C1E&index=2&pp=iAQB8AUB"
+                              class="msc-btn">Bangarang</a>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/Skrillex/Bangarang/skrillex.jpg" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn"><a
+                              href="https://www.youtube.com/watch?v=86khmc6y1yE&list=PLB30EE183F1B36C1E&index=6&pp=iAQB8AUB"
+                              class="msc-btn">Kyoto</a>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/Skrillex/Bangarang/skrillex.jpg" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn"><a
+                              href="https://www.youtube.com/watch?v=YFyVdItksX4&list=PLB30EE183F1B36C1E&index=1&pp=iAQB8AUB"
+                              class="msc-btn">Right In</a>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/Skrillex/Bangarang/skrillex.jpg" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn"><a
+                              href="https://www.youtube.com/watch?v=OR6AV9yJPoM&list=PLB30EE183F1B36C1E&index=7&pp=iAQB8AUB"
+                              class="msc-btn">Summit</a>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/Skrillex/Bangarang/skrillex.jpg" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn"><a
+                              href="https://www.youtube.com/watch?v=nUA8OzQxGxE&list=PLB30EE183F1B36C1E&index=3&pp=iAQB8AUB"
+                              class="msc-btn">Break'n a Sweat</a>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/Skrillex/Bangarang/Bangarang.jpg" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn"><a
+                              href="https://open.spotify.com/album/5XJ2NeBxZP3HFM8VoBQEUe?si=kcJscEykRj-Q7GuG9bjKnw&context=spotify%3Aalbum%3A5XJ2NeBxZP3HFM8VoBQEUe"
+                              class="msc-btn">Album</a>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="smns" class="tab-pane fade card-div">
+                  <div class="row card-div">
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/Skrillex/Bangarang/skrillex.jpg" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn"><a
+                              href="https://www.youtube.com/watch?v=iIyE3EDCigE&list=PL80A243D9C542F276&index=1&pp=iAQB8AUB"
+                              class="msc-btn">Rock 'n' Roll (D.T.E)</a>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/Skrillex/Bangarang/skrillex.jpg" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn"><a
+                              href="https://www.youtube.com/watch?v=WSeNSzJ2-Jw&list=PL80A243D9C542F276&index=2&pp=iAQB8AUB"
+                              class="msc-btn">Scary Monsters and Nice Sprites (D.T.E)</a>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/Skrillex/Bangarang/skrillex.jpg" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn"><a
+                              href="https://www.youtube.com/watch?v=PzEgrNigZdw&list=PL80A243D9C542F276&index=4&pp=iAQB8AUB"
+                              class="msc-btn">All I Ask Of You (D.T.E)</a>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/Skrillex/Bangarang/skrillex.jpg" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn"><a
+                              href="https://www.youtube.com/watch?v=TYYyMu3pzL4&list=PL1B5CF096FA99B653&index=1&pp=iAQB8AUB"
+                              class="msc-btn">First of the Year (EP)</a>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/Skrillex/Bangarang/skrillex.jpg" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn"><a
+                              href="https://www.youtube.com/watch?v=dcLaYwl48v0&list=PL1B5CF096FA99B653&index=3&pp=iAQB8AUB"
+                              class="msc-btn">Ruffneck (EP)</a>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/Skrillex/Scary Monsters/Scary Monsters.jpg" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn"><a
+                              href="https://open.spotify.com/album/7ltvnXQCjQRwTlMy55XcCz?si=fH29tsLPQHqc2wqHI1McFw&context=spotify%3Aalbum%3A7ltvnXQCjQRwTlMy55XcCz"
+                              class="msc-btn">Album (EP)</a>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 my-4">
+                      <div class="card">
+                        <img src="images/Ultra/Skrillex/Scary Monsters/Scary Monsters.jpg" class="p-2">
+                        <div class="card-body">
+                          <h6 class="card-title text-center btnn"><a
+                              href="https://open.spotify.com/album/6HbNEBza64W10MQxUFq6QL?si=cWBPVuqtQF6pC76SCG6PDg&context=spotify%3Aalbum%3A6HbNEBza64W10MQxUFq6QL"
+                              class="msc-btn">Album (D.T.E)</a>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<!--//////////////////////////////////////Menu-Tabs//////////////////////////////////////-->
+
+          <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+          <script src="edm.js"></script>
+</body>
+
+</html>
